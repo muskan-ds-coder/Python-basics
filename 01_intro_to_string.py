@@ -23,7 +23,9 @@ print(name[0:4])
 
 a = 5
 b = 2
-print(a+b)
+c = a + b
+print(c)
+
      
         
         
