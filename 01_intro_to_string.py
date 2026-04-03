@@ -20,6 +20,10 @@ print(character1)  # the index in a string starts from 0 to (length - 1) in pyth
 #NEGATIVE SLICING 
 name = "Muskan"
 print(name[0:4])
+
+a = 5
+b = 2
+print(a+b)
      
         
         
