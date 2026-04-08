@@ -1,6 +1,20 @@
 # String is a data type in python.
 # String is a sequence of characters enclosed in quotes.
 # We can primarily write a string in these three ways.
+# Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+# 'hello' is the same as "hello".
+# You can display a string literal with the print() function:
+# ExampleGet your own Python Server
+print("Hello")
+print('Hello')
+
+# Quotes Inside Quotes
+# You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+# Example
+print("It's alright")
+print("He is called 'Johnny'")
+print('He is called "Johnny"')
 a = 'Muskan'      # Single quoted string 
 b = "Muskan"      # Double quoted string   
 c = '''Muskan'''  # Triple quoted string 
@@ -27,3 +41,4 @@ c = a + b
 d = a - b
 print(c)
 print(d)
+print(c * d)
