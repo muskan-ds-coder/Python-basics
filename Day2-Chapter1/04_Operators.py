@@ -1,4 +1,5 @@
 # Python Operators
+
 # Arithmetic Operators: +, -, *, /, %, **, //
 # Assignment Operators: =, +=, -=, *=, /=, %=, **=, //=
 # Comparison Operators: ==, !=, >, <, >=, <=    
@@ -87,6 +88,7 @@ print(" 6 not in y:", 6 not in y)
 fruits = ["apple", "banana"]
 print("apple" in fruits)      
 print("grape" not in fruits)  
+
 
 
 
