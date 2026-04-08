@@ -27,29 +27,76 @@ print(type(c))        #<class 'bool'>
 d = None
 print(type(d))        #<class 'NoneType'>  
 
-x = "Hello World"	                            (str)
-#display x:
-print(x)
-#display the data type of x:
-print(type(x)) 
+e = "Hello World" #(str)
+#display e:
+print(e)
+#display the data type of e:
+print(type(e)) 
 
-x = 20	                                        (int)
-#display x:
-print(x)
-#display the data type of x:
-print(type(x)) 
+f = 20	#(int)
+print(f)
+print(type(f)) 
 
-x = 20.5	                                    (float)	
+g = 20.5  #(float)
+print(g)
+print(type(g))  
 
-x = 1j	                                        (complex)	
-x = ["apple", "banana", "cherry"]	            (list)	
-x = ("apple", "banana", "cherry")	            (tuple)
-x = range(6)	                                (range)	
-x = {"name" : "John", "age" : 36}	            (dict)	
-x = {"apple", "banana", "cherry"}	            (set)	
-x = frozenset({"apple", "banana", "cherry"})	(frozenset)	
-x = True	                                    (bool)	
-x = b"Hello"	                                (bytes)	
-x = bytearray(5)	                            (bytearray)	
-x = memoryview(bytes(5))	                    (memoryview)	
-x = None	                                    (NoneType)	
+h = 1j	 #(complex)	
+print(h)
+print(type(h)) 
+
+i = ["apple", "banana", "cherry"]  #(list)
+print(i)
+print(type(i)) 
+# Empty list
+my_list = []
+# List with items
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3, 4, 5]
+mixed = [1, "hello", True, 3.14]
+# Modifying list, Lists are mutable, so you can change them:
+fruits.append("orange")  # Add to end
+fruits.insert(1, "grape")  # Insert at index
+fruits.remove("banana")  # Remove by value
+fruits.pop(0)  # Remove by index
+
+j = ("apple", "banana", "cherry")  #(tuple)
+print(j)
+print(type(j)) 
+
+k = range(6)  #(range)
+print(k)
+print(type(k)) 
+
+l = {"name" : "John", "age" : 36}	#(dict)
+print(l)
+print(type(l)) 
+
+m = {"apple", "banana", "cherry"}	#(set)
+print(m)
+print(type(m)) 
+
+n = frozenset({"apple", "banana", "cherry"})  #(frozenset)	
+print(n)
+print(type(n)) 
+
+o = True  #(bool)
+print(o)
+print(type(o)) 
+
+p = b"Hello"  #(bytes)
+print(p)
+print(type(p)) 
+
+q = bytearray(5) #(bytearray)
+print(q)
+print(type(q)) 
+
+r = memoryview(bytes(5))  #(memoryview)
+print(r)
+print(type(r)) 
+
+s = None  #(NoneType)
+print(s)
+print(type(s)) 	
+
