@@ -1,3 +1,4 @@
+# Variables in Python
 # A Variable is a container to store data
 x = 12
 name = "Muskan"
