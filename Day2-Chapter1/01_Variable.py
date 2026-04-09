@@ -22,7 +22,7 @@ print(x)
 x = 'John'
 print(x)
 
-#Variable names are case-sensitive.
+# Variable names are case-sensitive.
 a = 4
 A = "Sally"
 print(a)
@@ -40,9 +40,15 @@ print(a+b)
 name = input("Enter name: ")
 
 # Reuse values
-price = 50
-total = price * 2
-print(total)
+price = 40
+total1 = price + 2
+total2 = price - 2
+total3 = price * 2
+total4 = price / 2
+print(total1)
+print(total2)
+print(total3)
+print(total4)
 
 # Many values to Multiple variable
 a, b, c, = 1, 2, 3
@@ -50,11 +56,11 @@ print(a, b, c)
 
 # Casting
 x = str(3)      # x will be '3'
-y = int(3)      # y will be '3'
-z = float(3)    # z will be '3.0'
+y = int(3)      # y will be 3 
+z = float(3)    # z will be 3.0
 print(x)
 print(y)
-print(z)
+print(z) 
 
 #Legal variable names:
 myvar = "John"

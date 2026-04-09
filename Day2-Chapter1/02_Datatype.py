@@ -21,35 +21,48 @@ print(type(b))        #<class 'float'>
 c = True
 print(type(c))        #<class 'bool'>
 d = None
-print(type(d))        #<class 'NoneType'>  
-e = "Hello World" #(str)
+print(type(d))        #<class 'NoneType'> 
+
+e = "Hello World"     
 #display e:
-print(e)
+print(e)            
 #display the data type of e:
-print(type(e)) 
+print(type(e))     #(str)
+
 f = 20	#(int)
 print(f)
 print(type(f)) 
+
 g = 20.5  #(float)
 print(g)
-print(type(g))  
+print(type(g)) 
+
 h = 1j	 #(complex)	
 print(h)
 print(type(h)) 
+
 i = ["apple", "banana", "cherry"]  #(list)
 print(i)
 print(type(i)) 
+
 # Empty list
 my_list = []
+
 # List with items
 fruits = ["apple", "banana", "cherry"]
 numbers = [1, 2, 3, 4, 5]
 mixed = [1, "hello", True, 3.14]
+
 # Modifying list, Lists are mutable, so you can change them:
 fruits.append("orange")  # Add to end
+print("muskanFruits:", fruits)
 fruits.insert(1, "grape")  # Insert at index
+print("muskanFruits0:", fruits)
 fruits.remove("banana")  # Remove by value
+print("muskanFruits1:", fruits)
 fruits.pop(0)  # Remove by index
+print("muskanFruits3:", fruits)
+
 
 j = ("apple", "banana", "cherry")  #(tuple)
 print(j)
