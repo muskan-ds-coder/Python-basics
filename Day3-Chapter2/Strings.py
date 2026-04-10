@@ -13,8 +13,8 @@ print('Hello')
 # You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
 # Example
 print("It's alright")
-print("He is called 'Johnny'")
-print('He is called "Johnny"')
+print("He is called 'Muskan'")
+print('He is called "Muskan"')
 a = 'Muskan'      # Single quoted string 
 b = "Muskan"      # Double quoted string   
 c = '''Muskan'''  # Triple quoted string 
@@ -42,4 +42,27 @@ d = a - b
 print(c)
 print(d)
 print(c * d)
+
+# String Concatenation
+# String concatenation is the operation of joining two or more strings together. In Python, you can concatenate strings using the + operator. When you use the + operator with strings, it combines them into a single string.
+# Example
+first_name = "Muskan"
+last_name = "Kumari"
+full_name = first_name + " " + last_name
+print(full_name)
+
+# String Repetition
+# String repetition is the operation of repeating a string a specified number of times. In Python, you can repeat a string using the * operator. When you use the * operator with a string and an integer, it creates a new string that is the original string repeated the specified number of times.
+# Example
+word = "Hello"
+repeated_word = word * 3
+print(repeated_word)
+
+# Example
+print("Hello " * 3)
+
+# String Length
+print(len("Hello World"))
+
+
 

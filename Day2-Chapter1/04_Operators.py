@@ -1,5 +1,9 @@
 # Python Operators
 
+# What is an operator in Python?
+# The in operators is used to check if a value exists inside a sequence.  (string, list, tuple, etc.) or not. It returns True if the value is found in the sequence, otherwise it returns False.
+# Python has the following types of operators:
+
 # Arithmetic Operators: +, -, *, /, %, **, //
 # Assignment Operators: =, +=, -=, *=, /=, %=, **=, //=
 # Comparison Operators: ==, !=, >, <, >=, <=    
@@ -7,6 +11,54 @@
 # Bitwise Operators: &, |, ^, ~, <<, >>
 # Identity Operators: is, is not
 # Membership Operators: in, not in
+# Example
+text = "Hello, World!"
+print("H" in text)  # Output: True
+print("h" in text)  # Output: False
+
+# Whith Strings
+word = "Python"
+print("P" in word)  # Output: True
+print("z" in word)  # Output: False
+print("thon" in word)  # Output: True
+print("thon" not in word)  # Output: False
+
+# With Lists
+fruits = ["apple", "banana", "cherry"]
+print("banana" in fruits)  # Output: True
+print("grape" in fruits)   # Output: False
+print("grape" not in fruits)  # Output: True
+
+# With Tuples
+numbers = (1, 2, 3, 4, 5)   
+print(3 in numbers)  # Output: True
+print(6 in numbers)  # Output: False
+
+# With Sets
+unique_numbers = {1, 2, 3, 4, 5}    
+print(2 in unique_numbers)  # Output: True
+print(6 in unique_numbers)  # Output: False
+
+# With Conditional Statements
+if "cherry" in fruits:
+    print("Cherry is in the list of fruits.")  # Output: Cherry is in the list of fruits.
+
+# With Loops
+for fruit in fruits:
+    if "a" in fruit:
+        print(fruit)  # Output: apple, banana
+
+# With Functions
+def check_fruit(fruit):
+    if fruit in fruits:
+        return f"{fruit} is in the list."
+    else:
+        return f"{fruit} is not in the list."
+print(check_fruit("banana"))  # Output: banana is in the list.
+print(check_fruit("grape"))   # Output: grape is not in the list.
+
+# Operators in Python are special symbols that perform specific operations on one or more operands and return a result. They are used to manipulate data and variables in various ways.
+# Python supports a wide range of operators, which can be categorized into several types based on their functionality. Each type of operator serves a specific purpose in the language, allowing developers to perform various operations on data and variables effectively.
 
 # Arithmetic Operators
 x = 10
