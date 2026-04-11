@@ -1,7 +1,13 @@
 # Python Operators
 
 # What is an operator in Python?
-# The in operators is used to check if a value exists inside a sequence.  (string, list, tuple, etc.) or not. It returns True if the value is found in the sequence, otherwise it returns False.
+# Operators are symbols used to perform operations on variables and values.
+# An operators is something that does a task like:
+#     Adding numbers
+#     Comparing values
+#     Checking if a value is in a list
+#     And much more!
+
 # Python has the following types of operators:
 
 # Arithmetic Operators: +, -, *, /, %, **, //
@@ -82,16 +88,22 @@ print("Floor Division:", f)
 x = 10  # Assignment
 x += 5  # Equivalent to x = x + 5   
 print("After += 5:", x)
+
 x -= 3  # Equivalent to x = x - 3
 print("After -= 3:", x)
+
 x *= 2  # Equivalent to x = x * 2
 print("After *= 2:", x)
+
 x /= 4  # Equivalent to x = x / 4
 print("After /= 4:", x)
+
 x %= 3  # Equivalent to x = x % 3
 print("After %= 3:", x)
+
 x **= 2  # Equivalent to x = x ** 2
 print("After **= 2:", x)
+
 x //= 2  # Equivalent to x = x // 2
 print("After //= 2:", x)
 

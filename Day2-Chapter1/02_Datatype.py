@@ -1,4 +1,7 @@
 # Data Types in Python
+# What is a data type?
+# Data types tell the computer what kind of data a variable is stroing.
+# Python has several built-in data types, including:
 
 # Text Type:	         str
 # Numeric Types:	     int, float, complex
@@ -9,7 +12,7 @@
 # Binary Types:	         bytes, bytearray, memoryview
 # None Type:	         NoneType
 
-from types import NoneType
+from types import NoneType 
 
 
 x = 5

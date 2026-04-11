@@ -1,7 +1,7 @@
 # Data types in Python
 
-# A data type is a classification that specifies which type of value a variable can hold. 
-# It determines the operations that can be performed on the data and how it is stored in memory. 
+# 
+# Data types tell the computer what kind of data a variable is stroing.
 # Python has several built-in data types, including:
 a = 10          # a is an integer (int)
 b = 3.14        # b is a floating-point number (float)
