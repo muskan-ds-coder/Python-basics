@@ -1,4 +1,5 @@
 # Data Types in Python
+
 # What is a data type?
 # Data types tell the computer what kind of data a variable is stroing.
 # Python has several built-in data types, including:
