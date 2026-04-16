@@ -23,3 +23,5 @@ print(my_dict)  # Output: {'name': 'Sanoj', 'age': 26, 'marks': 85, 'city': 'God
 # Remove data
 del my_dict["marks"]  # Remove marks key-value pair
 print(my_dict)  # Output: {'name': 'Sanoj', 'age': 26, 'city': 'Godda'}
+
+# Access items
