@@ -119,3 +119,5 @@ result = "Adult" if age >= 18 else "Minor"
 print(result)
 
 
+e = float(3**2**4**2)
+print(e)

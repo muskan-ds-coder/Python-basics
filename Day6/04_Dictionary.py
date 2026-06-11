@@ -24,4 +24,16 @@ print(my_dict)  # Output: {'name': 'Sanoj', 'age': 26, 'marks': 85, 'city': 'God
 del my_dict["marks"]  # Remove marks key-value pair
 print(my_dict)  # Output: {'name': 'Sanoj', 'age': 26, 'city': 'Godda'}
 
-# Access items
+# Create dictionary of numbers and their squares
+squares = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+print(squares)  # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+# Merge two dictionaries
+dict1 = {"a": 1, "b": 2}
+dict2 = {"c": 3, "d": 4}
+merged_dict = {**dict1, **dict2}
+print(merged_dict)  # Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4} 
+
+# Find max value in dictionary
+max_value = max(squares.values())
+print(max_value)  # Output: 25  
