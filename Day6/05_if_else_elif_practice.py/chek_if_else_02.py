@@ -16,8 +16,19 @@ else:
     print("odd.")
 
 # Q13 Check if a year is a leap year (basic version).
-
+year = int(input("Enter a year: "))
+if year % 4 == 0:
+    print("Leap year. ")
+else:
+    print("Not leap year. ")
+    
 # Q14 Check if a person can enter a movie (age >= 18).
+age = int(input("enter you'r age: "))
+if age >= 18:
+    print("you can watch a movie.")
+else:
+    print("you cannot watch a movie.")
+
 # Q15 Check if a number is positive or negative.
 # Q16 Find whether a number is divisible by both 3 and 5.
 # Q17 Compare two strings and print whether they are equal.
