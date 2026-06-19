@@ -1,3 +1,5 @@
+# if (1-10)
+
 # Q1   Check if a number is positive.
 number1 = int(input("Enter a positive number: "))
 if number1 >= 0:
