@@ -15,12 +15,12 @@ else:
     print("greatest", b)
 
 '''
- Assign grades:
- 90-100 → A
- 80-89 → B
- 70-79 → C
- 60-69 → D
- Below 60 → F
+# Assign grades:
+  90-100 → A
+  80-89 → B
+  70-79 → C
+  60-69 → D
+# Below 60 → F
 ''' 
 marks = int(input("Enter your marks: "))
 if marks >= 90:
