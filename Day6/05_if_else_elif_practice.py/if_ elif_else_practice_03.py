@@ -36,11 +36,59 @@ else:
 
 
 # Display the day of the week based on a number (1-7).
+day = int(input("Enter a number (1-7): "))
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+elif day == 4:
+    print("Thursday")
+elif day == 5:
+    print("Friday")
+elif day == 6:
+    print("Saturday")
+elif day == 7:
+    print("Saturday")
+else:
+    print("Please enter valid week number")
 
 # Display the month name based on month number.
+month = int(input("Enter a month number "))
+if month == 1:
+    print("January")
+elif month == 2:
+    print("February")
+elif month == 3:
+    print("March")
+elif month == 4:
+    print("April")
+elif month == 5:
+    print("May")
+elif month == 6:
+    print("June")
+elif month == 7:
+    print("July")
+elif month == 8:
+    print("August")
+elif month == 9:
+    print("September")
+elif month == 10:
+    print("October")
+elif month == 11:
+    print("November")
+elif month == 12:
+    print("December")
+else:
+    print("Please enter valid month number")
+
+
 # Check whether a character is a vowel or consonant.
 # Create a simple calculator (+, -, *, /).
 # Check traffic light color and print action.
+
+
 '''
 # Categorize age:
 # Child
